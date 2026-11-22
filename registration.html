@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UBS | Player Registration</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px;
+            background: #080808;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #151515;
+            border: 1px solid #b89635;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #d4af37;
+            text-align: center;
+        }
+
+        p {
+            color: #ccc;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        label {
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            color: #d4af37;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            background: #222;
+            color: white;
+            border: 1px solid #555;
+            border-radius: 6px;
+        }
+
+        .role {
+            margin: 12px 0;
+            color: white;
+        }
+
+        .role input {
+            width: auto;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 25px;
+            background: #d4af37;
+            color: black;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #f5d76e;
+        }
+
+        .back {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #d4af37;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>UBS ESPORTS</h1>
+
+    <p>
+        PLAYER REGISTRATION
+    </p>
+
+    <p>
+        Register to join the guilds of
+        Unbroken Souls Esports and compete
+        in esports.
+    </p>
+
+    <form
+        action="https://script.google.com/macros/s/AKfycbwd-i9Ohn-TwlaSA0YEWCKsjKIuMYy7p355mbOzq9hmr1wSO7BPsxZHCGsboRCK-3Iu/exec"
+        method="POST">
+
+        <label>Full Name</label>
+        <input
+            type="text"
+            name="name"
+            required>
+
+        <label>In-Game Name (IGN)</label>
+        <input
+            type="text"
+            name="ign"
+            required>
+
+        <label>Free Fire UID</label>
+        <input
+            type="text"
+            name="uid"
+            required>
+
+        <label>Preferred Role</label>
+
+        <select name="role" required>
+            <option value="">Select your role</option>
+            <option value="Primary Rusher">Primary Rusher</option>
+            <option value="Secondary Rusher">Secondary Rusher</option>
+            <option value="Supporter">Supporter</option>
+            <option value="Sniper">Sniper</option>
+        </select>
+
+        <label>Age</label>
+        <input
+            type="number"
+            name="age"
+            min="1"
+            max="120"
+            required>
+
+        <button type="submit">
+            SUBMIT REGISTRATION
+        </button>
+
+    </form>
+
+    <a class="back" href="index.html">
+        ← Back to Homepage
+    </a>
+
+</div>
+
+</body>
+      </html>
+      
